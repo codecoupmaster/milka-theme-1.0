@@ -1,6 +1,6 @@
 <?php
 
-add_action( 'wp_enqueue_scripts', 'theme_milka_files' );            // подключаем стили и скрипты
+add_action( 'wp_enqueue_scripts', 'theme_milka_files' );            // подключаем стили
 
 function theme_milka_files() {
     wp_enqueue_style('milka_main_styles', get_theme_file_uri('/assets/css/style.css'));         // основной css файл
