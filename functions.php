@@ -23,11 +23,12 @@ function scripts_theme () {      //подключаем скрипты и биб
     wp_enqueue_script( 'wow', get_template_directory_uri() . '/assets/lib/wow/wow.min.js');
     wp_enqueue_script( 'easing', get_template_directory_uri() . '/assets/lib/easing/easing.min.js');
     wp_enqueue_script( 'waypoints', get_template_directory_uri() . '/assets/lib/waypoints/waypoints.min.js');
+    wp_enqueue_script( 'carousel', get_template_directory_uri() . '/assets/lib/owlcarousel/owl.carousel.min.js');  
     wp_enqueue_script( 'counterup', get_template_directory_uri() . '/assets/lib/counterup/counterup.min.js');
     wp_enqueue_script( 'parallax', get_template_directory_uri() . '/assets/lib/parallax/parallax.min.js');
     wp_enqueue_script( 'lightbox', get_template_directory_uri() . '/assets/lib/lightbox/js/lightbox.min.js');
     wp_enqueue_script( 'main', get_template_directory_uri() . '/assets/js/main.js');
 
-    wp_enqueue_script( 'carousel', get_template_directory_uri() . '/assets/lib/owlcarousel/owl.carousel.min.js');  //создает проблемы если поставить перед main.js
+    
 
 }
