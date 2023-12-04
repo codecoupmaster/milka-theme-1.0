@@ -22,6 +22,8 @@ function scripts_theme () {      //подключаем скрипты и биб
 	wp_register_script( 'jquery', 'https://ajax.googleapis.com/ajax/libs/jquery/3.6.3/jquery.min.js');
 	wp_enqueue_script( 'jquery' );
 
+    wp_enqueue_script( 'bootstrap_js', 'https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.bundle.min.js');
+
     wp_enqueue_script( 'wow', get_template_directory_uri() . '/assets/lib/wow/wow.min.js');
     wp_enqueue_script( 'easing', get_template_directory_uri() . '/assets/lib/easing/easing.min.js');
     wp_enqueue_script( 'waypoints', get_template_directory_uri() . '/assets/lib/waypoints/waypoints.min.js');
