@@ -5,7 +5,7 @@ add_action( 'wp_enqueue_scripts', 'theme_milka_files' );            // подк�
 function theme_milka_files() {   
     wp_enqueue_style('milka_main_styles', get_theme_file_uri('/assets/css/style.css'));         // основной css файл
 
-    wp_enqueue_style('custom-fonts', 'https://fonts.googleapis.com/css2?family=Libre+Baskerville:wght@700&family=Open+Sans:wght@400;500;600&display=swap', array(), null); //подключаем шрифты, "array(), null" отключает кеширование шрифтов, с ним не работало
+    wp_enqueue_style('custom-fonts', 'https://fonts.googleapis.com/css2?family=PT+Serif:wght@700&family=Open+Sans:wght@400;500;600&display=swap', array(), null); //подключаем шрифты, "array(), null" отключает кеширование шрифтов, с ним не работало
 
     wp_enqueue_style( 'bootstrap', get_template_directory_uri() . '/assets/css/bootstrap.min.css');         //файл bootstrap css
 
