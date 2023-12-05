@@ -57,7 +57,7 @@
                         <div class="col-6 position-relative wow fadeIn" data-wow-delay="0.7s">
                             <div class="about-experience bg-secondary rounded">
                                 <h1 class="display-1 mb-0">25</h1>
-                                <small class="fs-5 fw-bold">Years Experience</small>
+                                <small class="fs-5 fw-bold">Многолетний опыт</small>
                             </div>
                         </div>
                         <div class="col-6 wow fadeIn" data-wow-delay="0.1s">
@@ -158,7 +158,7 @@
                             <img class="img-fluid rounded" src="assets/img/banner-1.jpg" alt="">
                         </div>
                         <div class="col-sm-8">
-                            <h2 class="text-white mb-3">We Sell Best Dairy Products</h2>
+                            <h2 class="text-white mb-3">Мы Продаем Лучшие Молочные Продукты</h2>
                             <p class="text-white mb-4">Clita erat ipsum et lorem et sit, sed stet lorem sit clita duo justo magna dolore erat amet</p>
                             <a class="btn btn-secondary rounded-pill py-2 px-4" href="">Read More</a>
                         </div>
@@ -170,7 +170,8 @@
                             <img class="img-fluid rounded" src="assets/img/banner-2.jpg" alt="">
                         </div>
                         <div class="col-sm-8">
-                            <h2 class="text-white mb-3">We Deliver Fresh Mild Worldwide</h2>
+                            <h2 class="text-white mb-3">
+Мы Доставляем Свежее Мясо По Всему Миру</h2>
                             <p class="text-white mb-4">Clita erat ipsum et lorem et sit, sed stet lorem sit clita duo justo magna dolore erat amet</p>
                             <a class="btn btn-secondary rounded-pill py-2 px-4" href="">Read More</a>
                         </div>
