@@ -145,7 +145,7 @@
             </div>
         </div>
     </div>
-    <!-- Features End -->
+    <!-- Features End ) -->
 
 
     <!-- Banner Start -->
